@@ -1,0 +1,5 @@
+C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\bin\client.exe
+C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\bin\client.pdb
+C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\obj\Debug\client.exe
+C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\obj\Debug\client.pdb

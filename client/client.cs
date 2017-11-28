@@ -23,6 +23,9 @@ namespace Microsoft.Samples.JsonSerialization
             //Serialize the Person object to a memory stream using DataContractJsonSerializer.
             DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(Person));
             ser.WriteObject(stream1, p);
+            p.name = "Beto";
+            p.age = 10;
+            ser.WriteObject(stream1, p);
 
             //Show the JSON output.
             stream1.Position = 0;
