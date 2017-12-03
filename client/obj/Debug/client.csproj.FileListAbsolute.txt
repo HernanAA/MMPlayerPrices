@@ -3,3 +3,5 @@ C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\bin\c
 C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\obj\Debug\client.csprojResolveAssemblyReference.cache
 C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\obj\Debug\client.exe
 C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\obj\Debug\client.pdb
+C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\bin\Newtonsoft.Json.dll
+C:\Users\herna\Documents\Visual Studio 2015\Projects\MMPlayerPrices\client\bin\Newtonsoft.Json.xml

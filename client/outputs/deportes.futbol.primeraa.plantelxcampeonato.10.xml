@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<plantelEquipo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <deporte id="1">Fútbol</deporte>
+  <equipo id="10" nombre="Independiente" sigla="IND">
+    <jugadores>
+      <jugador id="186">
+        <pais>Argentina</pais>
+        <nombre>Damián Gonzalo</nombre>
+        <apellido>Albil</apellido>
+      </jugador>
+      <jugador id="34493">
+        <pais>Uruguay</pais>
+        <nombre>Martín Nicolás</nombre>
+        <apellido>Campaña Delgado</apellido>
+      </jugador>
+      <jugador id="172569">
+        <pais>Argentina</pais>
+        <nombre>Gonzalo</nombre>
+        <apellido>Rehak</apellido>
+      </jugador>
+      <jugador id="193917">
+        <pais>Argentina</pais>
+        <nombre>Franco</nombre>
+        <apellido>Vélez</apellido>
+      </jugador>
+      <jugador id="4051">
+        <pais>Venezuela</pais>
+        <nombre>Fernando</nombre>
+        <apellido>Amorebieta</apellido>
+      </jugador>
+      <jugador id="193186">
+        <pais>Argentina</pais>
+        <nombre>Gonzalo</nombre>
+        <apellido>Asis</apellido>
+      </jugador>
+      <jugador id="127229">
+        <pais>Argentina</pais>
+        <nombre>Néstor Adriel</nombre>
+        <apellido>Breitenbruch</apellido>
+      </jugador>
+      <jugador id="100773">
+        <pais>Argentina</pais>
+        <nombre>Fabricio</nombre>
+        <apellido>Bustos</apellido>
+      </jugador>
+      <jugador id="105543">
+        <pais>Argentina</pais>
+        <nombre>Jorge Nicolás</nombre>
+        <apellido>Figal</apellido>
+      </jugador>
+      <jugador id="193185">
+        <pais>Argentina</pais>
+        <nombre>Alan Javier</nombre>
+        <apellido>Franco</apellido>
+      </jugador>
+      <jugador id="173048">
+        <pais>Argentina</pais>
+        <nombre>Enzo Daniel</nombre>
+        <apellido>Martínez</apellido>
+      </jugador>
+      <jugador id="100778">
+        <pais>Argentina</pais>
+        <nombre>Rodrigo Miguel</nombre>
+        <apellido>Moreira</apellido>
+      </jugador>
+      <jugador id="55208">
+        <pais>Argentina</pais>
+        <nombre>Juan Manuel</nombre>
+        <apellido>Sánchez Miño</apellido>
+      </jugador>
+      <jugador id="79278">
+        <pais>Uruguay</pais>
+        <nombre>Gabriel Gastón Alexis</nombre>
+        <apellido>Silva Perdomo</apellido>
+      </jugador>
+      <jugador id="45388">
+        <pais>Argentina</pais>
+        <nombre>Nicolás</nombre>
+        <apellido>Tagliafico</apellido>
+      </jugador>
+      <jugador id="185277">
+        <pais>Argentina</pais>
+        <nombre>Ezequiel</nombre>
+        <apellido>Barco</apellido>
+      </jugador>
+      <jugador id="172568">
+        <pais>Argentina</pais>
+        <nombre>Domingo</nombre>
+        <apellido>Blanco</apellido>
+      </jugador>
+      <jugador id="89354">
+        <pais>Argentina</pais>
+        <nombre>Nery Andrés</nombre>
+        <apellido>Domínguez</apellido>
+      </jugador>
+      <jugador id="57549">
+        <pais>Argentina</pais>
+        <nombre>Nicolás</nombre>
+        <apellido>Domingo</apellido>
+      </jugador>
+      <jugador id="15206">
+        <pais>Argentina</pais>
+        <nombre>Walter</nombre>
+        <apellido>Erviti</apellido>
+      </jugador>
+      <jugador id="629">
+        <pais>Argentina</pais>
+        <nombre>Jonás Manuel</nombre>
+        <apellido>Gutiérrez</apellido>
+      </jugador>
+      <jugador id="85466">
+        <pais>Argentina</pais>
+        <nombre>Maximiliano Eduardo</nombre>
+        <apellido>Meza</apellido>
+      </jugador>
+      <jugador id="4939">
+        <pais>Uruguay</pais>
+        <nombre>Diego Martín</nombre>
+        <apellido>Rodríguez Berrini</apellido>
+      </jugador>
+      <jugador id="193188">
+        <pais>Argentina</pais>
+        <nombre>Gastón Alberto</nombre>
+        <apellido>Togni</apellido>
+      </jugador>
+      <jugador id="85311">
+        <pais>Argentina</pais>
+        <nombre>Lucas</nombre>
+        <apellido>Albertengo</apellido>
+      </jugador>
+      <jugador id="79877">
+        <pais>Argentina</pais>
+        <nombre>Martín Nicolás</nombre>
+        <apellido>Benítez</apellido>
+      </jugador>
+      <jugador id="193187">
+        <pais>Argentina</pais>
+        <nombre>Ezequiel Alexander</nombre>
+        <apellido>Denis</apellido>
+      </jugador>
+      <jugador id="46003">
+        <pais>Argentina</pais>
+        <nombre>Leandro Miguel</nombre>
+        <apellido>Fernández</apellido>
+      </jugador>
+      <jugador id="24256">
+        <pais>Argentina</pais>
+        <nombre>Emmanuel</nombre>
+        <apellido>Gigliotti</apellido>
+      </jugador>
+      <jugador id="19700">
+        <pais>Argentina</pais>
+        <nombre>Juan Manuel</nombre>
+        <apellido>Martínez</apellido>
+      </jugador>
+      <jugador id="77802">
+        <pais>Argentina</pais>
+        <nombre>Francisco</nombre>
+        <apellido>Pizzini</apellido>
+      </jugador>
+      <jugador id="162734">
+        <pais>Argentina</pais>
+        <nombre>Ariel</nombre>
+        <apellido>Holan</apellido>
+      </jugador>
+    </jugadores>
+  </equipo>
+</plantelEquipo>
