@@ -1,0 +1,585 @@
+<?xml version="1.0"?>
+<plantelEquipo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <deporte id="1">Fútbol</deporte>
+  <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
+  <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
+  <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
+  <fechaActual>20171114</fechaActual>
+  <equipo id="129" nombre="Def. y Justicia" sigla="DEF" paisId="1" paisNombre="Argentina" tipo="club">
+    <jugadores cant="32">
+      <jugador id="38018">
+        <nombre>Gabriel</nombre>
+        <apellido>Arias</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1987-09-13</fechaNacimiento>
+        <horaNacimiento />
+        <edad>30</edad>
+        <peso>80</peso>
+        <altura>188</altura>
+        <apodo />
+        <rol idRol="1">Arquero</rol>
+        <camiseta>21</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>3800000</cotizacion>
+      </jugador>
+      <jugador id="174250">
+        <nombre>Lucio</nombre>
+        <apellido>Chiappero</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1994-03-26</fechaNacimiento>
+        <horaNacimiento />
+        <edad>23</edad>
+        <peso>70</peso>
+        <altura>180</altura>
+        <apodo />
+        <rol idRol="1">Arquero</rol>
+        <camiseta>1</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>300000</cotizacion>
+      </jugador>
+      <jugador id="147861">
+        <nombre>Luis Ezequiel</nombre>
+        <apellido>Unsain</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1995-03-09</fechaNacimiento>
+        <horaNacimiento />
+        <edad>22</edad>
+        <peso>72</peso>
+        <altura>188</altura>
+        <apodo />
+        <rol idRol="1">Arquero</rol>
+        <camiseta>22</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2500000</cotizacion>
+      </jugador>
+      <jugador id="196533">
+        <nombre>Pablo Andrés</nombre>
+        <apellido>Alvarado</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1986-02-27</fechaNacimiento>
+        <horaNacimiento />
+        <edad>31</edad>
+        <peso>70</peso>
+        <altura>180</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>18</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>3000000</cotizacion>
+      </jugador>
+      <jugador id="127354">
+        <nombre>Rafael Victoriano</nombre>
+        <apellido>Barrios</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1993-05-23</fechaNacimiento>
+        <horaNacimiento />
+        <edad>24</edad>
+        <peso>78</peso>
+        <altura>176</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>4</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>1500000</cotizacion>
+      </jugador>
+      <jugador id="60018">
+        <nombre>Rafael Marcelo</nombre>
+        <apellido>Delgado</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1990-01-13</fechaNacimiento>
+        <horaNacimiento />
+        <edad>27</edad>
+        <peso>70</peso>
+        <altura>174</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>20</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>3800000</cotizacion>
+      </jugador>
+      <jugador id="60713">
+        <nombre>Dylan</nombre>
+        <apellido>Gissi</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1991-04-27</fechaNacimiento>
+        <horaNacimiento />
+        <edad>26</edad>
+        <peso>83</peso>
+        <altura>192</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>2</camiseta>
+        <pais paisId="42">Suiza</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2700000</cotizacion>
+      </jugador>
+      <jugador id="55401">
+        <nombre>Luis Vicente</nombre>
+        <apellido>Jerez Silva</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1989-02-20</fechaNacimiento>
+        <horaNacimiento />
+        <edad>28</edad>
+        <peso>74</peso>
+        <altura>177</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>5</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2700000</cotizacion>
+      </jugador>
+      <jugador id="172760">
+        <nombre>Lisandro</nombre>
+        <apellido>Martínez</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1998-01-18</fechaNacimiento>
+        <horaNacimiento />
+        <edad>19</edad>
+        <peso>77</peso>
+        <altura>175</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>6</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="631" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
+        <localidad />
+        <cotizacion>500000</cotizacion>
+      </jugador>
+      <jugador id="69649">
+        <nombre>Hugo Ezequiel</nombre>
+        <apellido>Silva</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1992-02-04</fechaNacimiento>
+        <horaNacimiento />
+        <edad>25</edad>
+        <peso>77</peso>
+        <altura>176</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>27</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>1900000</cotizacion>
+      </jugador>
+      <jugador id="119958">
+        <nombre>Lucas</nombre>
+        <apellido>Suárez</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1995-03-17</fechaNacimiento>
+        <horaNacimiento />
+        <edad>22</edad>
+        <peso>79</peso>
+        <altura>187</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>3</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="631" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
+        <localidad />
+        <cotizacion>1800000</cotizacion>
+      </jugador>
+      <jugador id="75587">
+        <nombre>Leandro Agustín</nombre>
+        <apellido>Zazpe Rodríguez</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1994-04-29</fechaNacimiento>
+        <horaNacimiento />
+        <edad>23</edad>
+        <peso>70</peso>
+        <altura>184</altura>
+        <apodo>Leandro Zazpe</apodo>
+        <rol idRol="2">Defensor</rol>
+        <camiseta>26</camiseta>
+        <pais paisId="12">Uruguay</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+      </jugador>
+      <jugador id="128296">
+        <nombre>Mariano</nombre>
+        <apellido>Bareiro</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1995-03-08</fechaNacimiento>
+        <horaNacimiento />
+        <edad>22</edad>
+        <peso>70</peso>
+        <altura>172</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>35</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="631" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
+        <localidad />
+        <cotizacion>1800000</cotizacion>
+      </jugador>
+      <jugador id="16844">
+        <nombre>Gonzalo Pablo</nombre>
+        <apellido>Castellani</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1987-08-10</fechaNacimiento>
+        <horaNacimiento />
+        <edad>30</edad>
+        <peso>75</peso>
+        <altura>183</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>13</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2600000</cotizacion>
+      </jugador>
+      <jugador id="122082">
+        <nombre>Franco Sebastián</nombre>
+        <apellido>Cristaldo</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1996-08-15</fechaNacimiento>
+        <horaNacimiento />
+        <edad>21</edad>
+        <peso>69</peso>
+        <altura>170</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>32</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2200000</cotizacion>
+      </jugador>
+      <jugador id="120432">
+        <nombre>Adrián Andrés</nombre>
+        <apellido>Cubas</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1996-05-22</fechaNacimiento>
+        <horaNacimiento />
+        <edad>21</edad>
+        <peso>66</peso>
+        <altura>165</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>14</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="631" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
+        <localidad />
+        <cotizacion>2800000</cotizacion>
+      </jugador>
+      <jugador id="174251">
+        <nombre>Nicolás</nombre>
+        <apellido>Czornomaz</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1995-07-08</fechaNacimiento>
+        <horaNacimiento />
+        <edad>22</edad>
+        <peso>74</peso>
+        <altura>178</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>19</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>300000</cotizacion>
+      </jugador>
+      <jugador id="14382">
+        <nombre>Gonzalo</nombre>
+        <apellido>Díaz</apellido>
+        <ladoHabil>izquierdo</ladoHabil>
+        <fechaNacimiento>1990-03-01</fechaNacimiento>
+        <horaNacimiento />
+        <edad>27</edad>
+        <peso>74</peso>
+        <altura>170</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>25</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+      </jugador>
+      <jugador id="8836">
+        <nombre>Hernán</nombre>
+        <apellido>Fredes</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1987-03-27</fechaNacimiento>
+        <horaNacimiento />
+        <edad>30</edad>
+        <peso>70</peso>
+        <altura>172</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>10</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>3200000</cotizacion>
+      </jugador>
+      <jugador id="62908">
+        <nombre>Daniel Alberto</nombre>
+        <apellido>González</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1991-01-26</fechaNacimiento>
+        <horaNacimiento />
+        <edad>26</edad>
+        <peso>70</peso>
+        <altura>182</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>24</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2000000</cotizacion>
+      </jugador>
+      <jugador id="96440">
+        <nombre>Leonel</nombre>
+        <apellido>Miranda</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1994-01-07</fechaNacimiento>
+        <horaNacimiento />
+        <edad>23</edad>
+        <peso>70</peso>
+        <altura>170</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>33</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>3700000</cotizacion>
+      </jugador>
+      <jugador id="145349">
+        <nombre>Tomás</nombre>
+        <apellido>Pochettino</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1996-02-01</fechaNacimiento>
+        <horaNacimiento />
+        <edad>21</edad>
+        <peso>71</peso>
+        <altura>181</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>28</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2500000</cotizacion>
+      </jugador>
+      <jugador id="86796">
+        <nombre>José Ignacio</nombre>
+        <apellido>Rivero Segade</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1992-04-10</fechaNacimiento>
+        <horaNacimiento />
+        <edad>25</edad>
+        <peso>71</peso>
+        <altura>182</altura>
+        <apodo>José Ignacio Rivero</apodo>
+        <rol idRol="3">Volante</rol>
+        <camiseta>8</camiseta>
+        <pais paisId="12">Uruguay</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>3400000</cotizacion>
+      </jugador>
+      <jugador id="45394">
+        <nombre>Matías Andrés</nombre>
+        <apellido>Sosa</apellido>
+        <ladoHabil>izquierdo</ladoHabil>
+        <fechaNacimiento>1995-07-05</fechaNacimiento>
+        <horaNacimiento />
+        <edad>22</edad>
+        <peso>79</peso>
+        <altura>186</altura>
+        <apodo>Matías Sosa</apodo>
+        <rol idRol="3">Volante</rol>
+        <camiseta>34</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>300000</cotizacion>
+      </jugador>
+      <jugador id="36700">
+        <nombre>Fabián Ramón</nombre>
+        <apellido>Bordagaray</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1987-02-15</fechaNacimiento>
+        <horaNacimiento />
+        <edad>30</edad>
+        <peso>72</peso>
+        <altura>175</altura>
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>17</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>3400000</cotizacion>
+      </jugador>
+      <jugador id="114108">
+        <nombre>Nicolás</nombre>
+        <apellido>Fernández</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1992-01-02</fechaNacimiento>
+        <horaNacimiento />
+        <edad>25</edad>
+        <peso>73</peso>
+        <altura>175</altura>
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>29</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>300000</cotizacion>
+      </jugador>
+      <jugador id="105203">
+        <nombre>Juan Cruz</nombre>
+        <apellido>Kaprof</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1995-03-12</fechaNacimiento>
+        <horaNacimiento />
+        <edad>22</edad>
+        <peso>71</peso>
+        <altura>169</altura>
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>7</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2800000</cotizacion>
+      </jugador>
+      <jugador id="16285">
+        <nombre>Fernando Andrés</nombre>
+        <apellido>Márquez</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1987-12-10</fechaNacimiento>
+        <horaNacimiento />
+        <edad>29</edad>
+        <peso>86</peso>
+        <altura>184</altura>
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>9</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>3800000</cotizacion>
+      </jugador>
+      <jugador id="52606">
+        <nombre>Facundo</nombre>
+        <apellido>Melivilo</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1992-08-12</fechaNacimiento>
+        <horaNacimiento />
+        <edad>25</edad>
+        <peso>79</peso>
+        <altura>188</altura>
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>11</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>1800000</cotizacion>
+      </jugador>
+      <jugador id="43831">
+        <nombre>Ciro Pablo</nombre>
+        <apellido>Rius Aragallo</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1988-10-27</fechaNacimiento>
+        <horaNacimiento />
+        <edad>29</edad>
+        <peso>70</peso>
+        <altura>175</altura>
+        <apodo>Ciro Rius</apodo>
+        <rol idRol="4">Delantero</rol>
+        <camiseta>12</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2500000</cotizacion>
+      </jugador>
+      <jugador id="94725">
+        <nombre>Horacio Gabriel</nombre>
+        <apellido>Tijanovich</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1996-02-28</fechaNacimiento>
+        <horaNacimiento />
+        <edad>21</edad>
+        <peso>70</peso>
+        <altura>181</altura>
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>16</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>2100000</cotizacion>
+      </jugador>
+      <jugador id="47815">
+        <nombre>Juan Pablo</nombre>
+        <apellido>Vojvoda</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1975-01-13</fechaNacimiento>
+        <horaNacimiento />
+        <edad>42</edad>
+        <peso />
+        <altura />
+        <apodo />
+        <rol idRol="5">DT</rol>
+        <camiseta />
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+      </jugador>
+    </jugadores>
+  </equipo>
+</plantelEquipo>

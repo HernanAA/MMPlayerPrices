@@ -25,7 +25,7 @@ namespace MundoManager.Serializer
             try
             {
                 JsonSerializer serializer = new JsonSerializer();
-                DtList dtList = JsonConvert.DeserializeObject<DtList>(File.ReadAllText("../inputs/dt.json"));
+                DtList dtList = JsonConvert.DeserializeObject<DtList>(File.ReadAllText("../inputs/jugadores1.json"));
 
                 XmlSerializer writer = new XmlSerializer(typeof(MMList));
 
@@ -45,7 +45,11 @@ namespace MundoManager.Serializer
                             where
                                 (jugador.clubActual.nombreCorto == mmList.equipo.sigla ||
                                 mmList.equipo.sigla == "GIM" && jugador.clubActual.nombreCorto == "GLP" ||
-                                mmList.equipo.sigla == "ROS" && jugador.clubActual.nombreCorto == "CEN") &&
+                                mmList.equipo.sigla == "ROS" && jugador.clubActual.nombreCorto == "CEN" ||
+                                mmList.equipo.sigla == "CHA" && jugador.clubActual.nombreCorto == "CHJ" ||
+                                mmList.equipo.sigla == "DEF" && jugador.clubActual.nombreCorto == "DYJ" ||
+                                mmList.equipo.sigla == "SMS" && jugador.clubActual.nombreCorto == "SSJ" ||
+                                mmList.equipo.sigla == "TAL" && jugador.clubActual.nombreCorto == "TC") &&
                                 //jugador.jugador.apellido.Contains(mmJugador.apellido) &&
                                 //jugador.jugador.nombres.Contains(mmJugador.nombre)
                                 mmJugador.apellido.Contains(jugador.jugador.apellido) &&
@@ -55,7 +59,7 @@ namespace MundoManager.Serializer
                             if (dtJugador == null || dtJugador.Count() == 0)
                             {
                                 unmached++;
-                                Console.WriteLine("--------------{2} - {3} Jugador no encontrado: {0} {1} - {4}",
+                                Console.WriteLine("{2} - {3} Jugador no encontrado: {0} {1} - {4}",
                                     mmJugador.nombre, mmJugador.apellido, unmached, mmList.equipo.sigla, mmFile);
                             }
                             else
