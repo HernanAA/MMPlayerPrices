@@ -40,7 +40,7 @@ namespace MundoManager.Serializer
 
                         foreach (var mmJugador in mmList.equipo.jugadores.jugadorList)
                         {
-                            var equipo =
+                            var dtJugador =
                             from jugador in dtList.jugadores.ToList()
                             where
                                 (jugador.clubActual.nombreCorto == mmList.equipo.sigla ||
@@ -52,24 +52,21 @@ namespace MundoManager.Serializer
                                 mmJugador.nombre.Contains(jugador.jugador.nombres)
                             select jugador;
 
-                            if (equipo == null || equipo.Count() == 0)
+                            if (dtJugador == null || dtJugador.Count() == 0)
                             {
                                 unmached++;
-                                Console.WriteLine("--------------{2} - {3} Jugador no encontrado: {0} {1} - {4}", 
+                                Console.WriteLine("--------------{2} - {3} Jugador no encontrado: {0} {1} - {4}",
                                     mmJugador.nombre, mmJugador.apellido, unmached, mmList.equipo.sigla, mmFile);
                             }
-                            //foreach (var jugador in equipo)
-                            //{
-                            //    Console.WriteLine("Jugador: {0} {1}", jugador.jugador.nombres, jugador.jugador.apellido);
-
-                            //}
+                            else
+                            {
+                                mmJugador.cotizacion = dtJugador.First().cotizacion.ToString();
+                            }
                         }
 
                         FileStream outputFile = File.Create("../outputs/" + mmFile.Replace("../inputs/", ""));
                         writer.Serialize(outputFile, mmList);
                         outputFile.Close();
-
-                        //deportes.futbol.primeraa.jugadores.estadisticas.xml
                     }
                 }
 
