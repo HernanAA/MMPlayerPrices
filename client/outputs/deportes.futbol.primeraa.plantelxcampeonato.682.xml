@@ -4,9 +4,9 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171117</fechaActual>
+  <fechaActual>20171127</fechaActual>
   <equipo id="682" nombre="Temperley" sigla="TEM" paisId="1" paisNombre="Argentina" tipo="club">
-    <jugadores cant="33">
+    <jugadores cant="34">
       <jugador id="23047">
         <nombre>Josué Daniel</nombre>
         <apellido>Ayala</apellido>
@@ -453,6 +453,24 @@
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
         <cotizacion>2800000</cotizacion>
+      </jugador>
+      <jugador id="192373">
+        <nombre>Alexis Lucas</nombre>
+        <apellido>Delgado</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1995-03-24</fechaNacimiento>
+        <horaNacimiento />
+        <edad>22</edad>
+        <peso />
+        <altura />
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>29</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>300000</cotizacion>
       </jugador>
       <jugador id="57154">
         <nombre>Marcos Daniel</nombre>

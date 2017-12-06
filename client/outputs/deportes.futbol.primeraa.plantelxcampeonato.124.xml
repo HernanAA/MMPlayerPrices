@@ -4,7 +4,7 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171107</fechaActual>
+  <fechaActual>20171127</fechaActual>
   <equipo id="124" nombre="Belgrano" sigla="BEL" paisId="1" paisNombre="Argentina" tipo="club">
     <jugadores cant="33">
       <jugador id="106312">
@@ -384,7 +384,7 @@
         <localidad />
       </jugador>
       <jugador id="42505">
-        <nombre>Jonathan Rafael</nombre>
+        <nombre>Jhonathan Rafael</nombre>
         <apellido>Ramis Persíncula</apellido>
         <ladoHabil />
         <fechaNacimiento>1989-11-06</fechaNacimiento>
@@ -392,14 +392,13 @@
         <edad>28</edad>
         <peso>77</peso>
         <altura>178</altura>
-        <apodo>Jonathan Ramis</apodo>
+        <apodo>Jhonathan Ramis</apodo>
         <rol idRol="3">Volante</rol>
         <camiseta>8</camiseta>
         <pais paisId="12">Uruguay</pais>
         <provincia />
         <clubActual id="653" nombre="Uruguay" paisId="12" paisNombre="Uruguay" paisSigla="URU" tipo="seleccion" />
         <localidad />
-        <cotizacion>2800000</cotizacion>
       </jugador>
       <jugador id="186028">
         <nombre>Joaquín Nehemías</nombre>

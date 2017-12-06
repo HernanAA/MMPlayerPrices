@@ -4,9 +4,9 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171106</fechaActual>
+  <fechaActual>20171203</fechaActual>
   <equipo id="5" nombre="Boca Juniors" sigla="BOC" paisId="1" paisNombre="Argentina" tipo="club">
-    <jugadores cant="28">
+    <jugadores cant="31">
       <jugador id="170131">
         <nombre>Manuel</nombre>
         <apellido>Roffo</apellido>
@@ -192,7 +192,7 @@
         <ladoHabil />
         <fechaNacimiento>1997-12-02</fechaNacimiento>
         <horaNacimiento />
-        <edad>19</edad>
+        <edad>20</edad>
         <peso>69</peso>
         <altura>177</altura>
         <apodo />
@@ -366,6 +366,24 @@
         <localidad />
         <cotizacion>3200000</cotizacion>
       </jugador>
+      <jugador id="48268">
+        <nombre>Pablo Javier</nombre>
+        <apellido>Pérez</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1985-08-10</fechaNacimiento>
+        <horaNacimiento />
+        <edad>32</edad>
+        <peso>75</peso>
+        <altura>179</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>8</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="21" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
+        <localidad />
+        <cotizacion>4800000</cotizacion>
+      </jugador>
       <jugador id="69035">
         <nombre>Sebastián</nombre>
         <apellido>Pérez Cardona</apellido>
@@ -383,6 +401,24 @@
         <clubActual id="168" nombre="Colombia" paisId="7" paisNombre="Colombia" paisSigla="COL" tipo="seleccion" />
         <localidad />
         <cotizacion>3500000</cotizacion>
+      </jugador>
+      <jugador id="116204">
+        <nombre>Guido</nombre>
+        <apellido>Vadalá</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1997-02-18</fechaNacimiento>
+        <horaNacimiento />
+        <edad>20</edad>
+        <peso>65</peso>
+        <altura>168</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>34</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>800000</cotizacion>
       </jugador>
       <jugador id="40071">
         <nombre>Darío Ismael</nombre>
@@ -490,6 +526,23 @@
         <clubActual id="21" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
         <localidad />
         <cotizacion>4100000</cotizacion>
+      </jugador>
+      <jugador id="208643">
+        <nombre>Mateo</nombre>
+        <apellido>Retegui</apellido>
+        <ladoHabil />
+        <fechaNacimiento />
+        <horaNacimiento />
+        <edad />
+        <peso />
+        <altura />
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>38</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
       </jugador>
       <jugador id="146">
         <nombre>Guillermo</nombre>

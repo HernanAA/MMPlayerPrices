@@ -4,9 +4,9 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171029</fechaActual>
+  <fechaActual>20171202</fechaActual>
   <equipo id="127" nombre="Chacarita" sigla="CHA" paisId="1" paisNombre="Argentina" tipo="club">
-    <jugadores cant="32">
+    <jugadores cant="33">
       <jugador id="159482">
         <nombre>Lucas</nombre>
         <apellido>Álvarez</apellido>
@@ -121,7 +121,7 @@
         <ladoHabil />
         <fechaNacimiento>1997-11-07</fechaNacimiento>
         <horaNacimiento />
-        <edad>19</edad>
+        <edad>20</edad>
         <peso>69</peso>
         <altura>171</altura>
         <apodo />
@@ -157,7 +157,7 @@
         <ladoHabil />
         <fechaNacimiento>1981-11-02</fechaNacimiento>
         <horaNacimiento />
-        <edad>35</edad>
+        <edad>36</edad>
         <peso>77</peso>
         <altura>180</altura>
         <apodo />
@@ -239,6 +239,23 @@
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
         <cotizacion>1700000</cotizacion>
+      </jugador>
+      <jugador id="208608">
+        <nombre>Cristian</nombre>
+        <apellido>Barrios</apellido>
+        <ladoHabil />
+        <fechaNacimiento />
+        <horaNacimiento />
+        <edad />
+        <peso />
+        <altura />
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>35</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
       </jugador>
       <jugador id="130378">
         <nombre>Kevin Mateo</nombre>

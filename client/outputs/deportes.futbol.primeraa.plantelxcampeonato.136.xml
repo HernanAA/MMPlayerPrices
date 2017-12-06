@@ -4,7 +4,7 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171002</fechaActual>
+  <fechaActual>20171128</fechaActual>
   <equipo id="136" nombre="Tigre" sigla="TIG" paisId="1" paisNombre="Argentina" tipo="club">
     <jugadores cant="34">
       <jugador id="24157">
@@ -138,7 +138,7 @@
         <ladoHabil />
         <fechaNacimiento>1994-11-18</fechaNacimiento>
         <horaNacimiento />
-        <edad>22</edad>
+        <edad>23</edad>
         <peso>69</peso>
         <altura>178</altura>
         <apodo />
@@ -209,7 +209,7 @@
         <ladoHabil />
         <fechaNacimiento>1990-10-26</fechaNacimiento>
         <horaNacimiento />
-        <edad>26</edad>
+        <edad>27</edad>
         <peso>83</peso>
         <altura>187</altura>
         <apodo />
@@ -424,7 +424,7 @@
         <ladoHabil />
         <fechaNacimiento>1984-10-13</fechaNacimiento>
         <horaNacimiento />
-        <edad>32</edad>
+        <edad>33</edad>
         <peso>65</peso>
         <altura>165</altura>
         <apodo />
@@ -585,7 +585,7 @@
         <ladoHabil />
         <fechaNacimiento>1987-10-20</fechaNacimiento>
         <horaNacimiento />
-        <edad>29</edad>
+        <edad>30</edad>
         <peso>88</peso>
         <altura>190</altura>
         <apodo />

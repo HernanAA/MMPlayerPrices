@@ -4,7 +4,7 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171121</fechaActual>
+  <fechaActual>20171127</fechaActual>
   <equipo id="10" nombre="Independiente" sigla="IND" paisId="1" paisNombre="Argentina" tipo="club">
     <jugadores cant="32">
       <jugador id="186">
@@ -192,8 +192,8 @@
         <fechaNacimiento>1997-01-17</fechaNacimiento>
         <horaNacimiento />
         <edad>20</edad>
-        <peso />
-        <altura />
+        <peso>69</peso>
+        <altura>173</altura>
         <apodo>Daniel Martínez</apodo>
         <rol idRol="2">Defensor</rol>
         <camiseta>28</camiseta>

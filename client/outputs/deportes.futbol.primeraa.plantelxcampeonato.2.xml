@@ -4,16 +4,16 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171026</fechaActual>
+  <fechaActual>20171205</fechaActual>
   <equipo id="2" nombre="Argentinos Juniors" sigla="ARG" paisId="1" paisNombre="Argentina" tipo="club">
-    <jugadores cant="34">
+    <jugadores cant="35">
       <jugador id="94685">
         <nombre>Maximiliano</nombre>
         <apellido>Cavallotti</apellido>
         <ladoHabil />
         <fechaNacimiento>1984-11-15</fechaNacimiento>
         <horaNacimiento />
-        <edad>32</edad>
+        <edad>33</edad>
         <peso>81</peso>
         <altura>187</altura>
         <apodo />
@@ -67,7 +67,7 @@
         <ladoHabil />
         <fechaNacimiento>1992-12-01</fechaNacimiento>
         <horaNacimiento />
-        <edad>24</edad>
+        <edad>25</edad>
         <peso>80</peso>
         <altura>185</altura>
         <apodo />
@@ -139,7 +139,7 @@
         <ladoHabil />
         <fechaNacimiento>1997-11-07</fechaNacimiento>
         <horaNacimiento />
-        <edad>19</edad>
+        <edad>20</edad>
         <peso>70</peso>
         <altura>180</altura>
         <apodo />
@@ -313,24 +313,6 @@
         <localidad />
         <cotizacion>3200000</cotizacion>
       </jugador>
-      <jugador id="183962">
-        <nombre>Nicolás</nombre>
-        <apellido>González</apellido>
-        <ladoHabil />
-        <fechaNacimiento>1998-04-06</fechaNacimiento>
-        <horaNacimiento />
-        <edad>19</edad>
-        <peso>68</peso>
-        <altura>180</altura>
-        <apodo />
-        <rol idRol="3">Volante</rol>
-        <camiseta>19</camiseta>
-        <pais paisId="1">Argentina</pais>
-        <provincia />
-        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
-        <localidad />
-        <cotizacion>1800000</cotizacion>
-      </jugador>
       <jugador id="120392">
         <nombre>Ezequiel</nombre>
         <apellido>Ham</apellido>
@@ -373,7 +355,7 @@
         <ladoHabil />
         <fechaNacimiento>1995-10-30</fechaNacimiento>
         <horaNacimiento />
-        <edad>21</edad>
+        <edad>22</edad>
         <peso>69</peso>
         <altura>178</altura>
         <apodo />
@@ -438,6 +420,24 @@
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
         <cotizacion>2500000</cotizacion>
+      </jugador>
+      <jugador id="174332">
+        <nombre>Sebastián</nombre>
+        <apellido>Riquelme</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1996-09-28</fechaNacimiento>
+        <horaNacimiento />
+        <edad>21</edad>
+        <peso>68</peso>
+        <altura>169</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>34</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>300000</cotizacion>
       </jugador>
       <jugador id="130575">
         <nombre>Federico Marcelo</nombre>
@@ -510,6 +510,24 @@
         <clubActual id="727" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
         <localidad />
         <cotizacion>1200000</cotizacion>
+      </jugador>
+      <jugador id="183962">
+        <nombre>Nicolás</nombre>
+        <apellido>González</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1998-04-06</fechaNacimiento>
+        <horaNacimiento />
+        <edad>19</edad>
+        <peso>68</peso>
+        <altura>180</altura>
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>19</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>1800000</cotizacion>
       </jugador>
       <jugador id="29138">
         <nombre>Fabricio</nombre>

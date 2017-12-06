@@ -4,9 +4,9 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171119</fechaActual>
+  <fechaActual>20171205</fechaActual>
   <equipo id="18" nombre="Rosario Central" sigla="ROS" paisId="1" paisNombre="Argentina" tipo="club">
-    <jugadores cant="31">
+    <jugadores cant="33">
       <jugador id="116634">
         <nombre>Emilio</nombre>
         <apellido>Di Fulvio</apellido>
@@ -102,7 +102,7 @@
         <ladoHabil />
         <fechaNacimiento>1997-11-24</fechaNacimiento>
         <horaNacimiento />
-        <edad>19</edad>
+        <edad>20</edad>
         <peso />
         <altura />
         <apodo />
@@ -149,6 +149,23 @@
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
         <cotizacion>1800000</cotizacion>
+      </jugador>
+      <jugador id="208529">
+        <nombre>Nahuel</nombre>
+        <apellido>Gómez</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1996-08-23</fechaNacimiento>
+        <horaNacimiento />
+        <edad>21</edad>
+        <peso />
+        <altura />
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>38</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
       </jugador>
       <jugador id="35659">
         <nombre>José</nombre>
@@ -382,13 +399,31 @@
         <localidad />
         <cotizacion>1500000</cotizacion>
       </jugador>
+      <jugador id="208530">
+        <nombre>Agustín</nombre>
+        <apellido>Maziero</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1997-11-27</fechaNacimiento>
+        <horaNacimiento />
+        <edad>20</edad>
+        <peso />
+        <altura />
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>39</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>300000</cotizacion>
+      </jugador>
       <jugador id="111092">
         <nombre>Joaquín</nombre>
         <apellido>Pereyra</apellido>
         <ladoHabil />
         <fechaNacimiento>1998-12-01</fechaNacimiento>
         <horaNacimiento />
-        <edad>18</edad>
+        <edad>19</edad>
         <peso>71</peso>
         <altura>181</altura>
         <apodo />
@@ -406,7 +441,7 @@
         <ladoHabil />
         <fechaNacimiento>1999-12-04</fechaNacimiento>
         <horaNacimiento />
-        <edad>17</edad>
+        <edad>18</edad>
         <peso>62</peso>
         <altura>172</altura>
         <apodo />
@@ -491,12 +526,12 @@
         <cotizacion>600000</cotizacion>
       </jugador>
       <jugador id="208443">
-        <nombre>Renzo</nombre>
+        <nombre>Renzo Jesús</nombre>
         <apellido>Reynaga</apellido>
         <ladoHabil />
-        <fechaNacimiento />
+        <fechaNacimiento>1999-06-02</fechaNacimiento>
         <horaNacimiento />
-        <edad />
+        <edad>18</edad>
         <peso />
         <altura />
         <apodo />

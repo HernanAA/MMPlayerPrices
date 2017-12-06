@@ -4,7 +4,7 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171008</fechaActual>
+  <fechaActual>20171205</fechaActual>
   <equipo id="135" nombre="Talleres" sigla="TAL" paisId="1" paisNombre="Argentina" tipo="club">
     <jugadores cant="31">
       <jugador id="317">
@@ -140,8 +140,8 @@
         <fechaNacimiento>1997-04-22</fechaNacimiento>
         <horaNacimiento />
         <edad>20</edad>
-        <peso />
-        <altura />
+        <peso>87</peso>
+        <altura>183</altura>
         <apodo />
         <rol idRol="2">Defensor</rol>
         <camiseta>4</camiseta>
@@ -301,7 +301,7 @@
         <ladoHabil />
         <fechaNacimiento>1998-10-10</fechaNacimiento>
         <horaNacimiento />
-        <edad>18</edad>
+        <edad>19</edad>
         <peso>68</peso>
         <altura>167</altura>
         <apodo />
@@ -407,7 +407,7 @@
         <ladoHabil />
         <fechaNacimiento>1995-11-16</fechaNacimiento>
         <horaNacimiento />
-        <edad>21</edad>
+        <edad>22</edad>
         <peso>69</peso>
         <altura>176</altura>
         <apodo />
@@ -533,7 +533,7 @@
         <ladoHabil />
         <fechaNacimiento>1997-11-06</fechaNacimiento>
         <horaNacimiento />
-        <edad>19</edad>
+        <edad>20</edad>
         <peso>70</peso>
         <altura>180</altura>
         <apodo />

@@ -4,9 +4,9 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171117</fechaActual>
+  <fechaActual>20171201</fechaActual>
   <equipo id="13" nombre="Newell`s" sigla="NOB" paisId="1" paisNombre="Argentina" tipo="club">
-    <jugadores cant="32">
+    <jugadores cant="34">
       <jugador id="200491">
         <nombre>Brian</nombre>
         <apellido>Bustos</apellido>
@@ -168,6 +168,23 @@
         <localidad />
         <cotizacion>400000</cotizacion>
       </jugador>
+      <jugador id="208585">
+        <nombre>Facundo</nombre>
+        <apellido>Nadalin</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1997-08-16</fechaNacimiento>
+        <horaNacimiento />
+        <edad>20</edad>
+        <peso>73</peso>
+        <altura>173</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>35</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+      </jugador>
       <jugador id="105300">
         <nombre>Nehuén</nombre>
         <apellido>Paz</apellido>
@@ -220,6 +237,23 @@
         <clubActual id="631" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
         <localidad />
         <cotizacion>700000</cotizacion>
+      </jugador>
+      <jugador id="208525">
+        <nombre>Héctor Joaquín</nombre>
+        <apellido>Varela</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1996-08-23</fechaNacimiento>
+        <horaNacimiento />
+        <edad>21</edad>
+        <peso>82</peso>
+        <altura>190</altura>
+        <apodo />
+        <rol idRol="2">Defensor</rol>
+        <camiseta>22</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
       </jugador>
       <jugador id="158998">
         <nombre>Jalil</nombre>
@@ -339,7 +373,7 @@
         <altura />
         <apodo />
         <rol idRol="3">Volante</rol>
-        <camiseta />
+        <camiseta>14</camiseta>
         <pais paisId="1">Argentina</pais>
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
@@ -406,7 +440,7 @@
         <ladoHabil />
         <fechaNacimiento>1999-11-20</fechaNacimiento>
         <horaNacimiento />
-        <edad>17</edad>
+        <edad>18</edad>
         <peso />
         <altura />
         <apodo />

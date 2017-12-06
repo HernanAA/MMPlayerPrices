@@ -4,9 +4,9 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171118</fechaActual>
+  <fechaActual>20171205</fechaActual>
   <equipo id="7" nombre="Estudiantes" sigla="EST" paisId="1" paisNombre="Argentina" tipo="club">
-    <jugadores cant="28">
+    <jugadores cant="29">
       <jugador id="3055">
         <nombre>Mariano</nombre>
         <apellido>Andújar</apellido>
@@ -224,7 +224,7 @@
         <cotizacion>3700000</cotizacion>
       </jugador>
       <jugador id="29111">
-        <nombre>Jonathan</nombre>
+        <nombre>Jonatan</nombre>
         <apellido>Schunke</apellido>
         <ladoHabil />
         <fechaNacimiento>1987-02-22</fechaNacimiento>
@@ -239,6 +239,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>5400000</cotizacion>
       </jugador>
       <jugador id="98128">
         <nombre>Christian Fernando</nombre>
@@ -389,7 +390,7 @@
         <ladoHabil />
         <fechaNacimiento>1991-11-27</fechaNacimiento>
         <horaNacimiento />
-        <edad>25</edad>
+        <edad>26</edad>
         <peso>74</peso>
         <altura>185</altura>
         <apodo />
@@ -399,6 +400,24 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+      </jugador>
+      <jugador id="163540">
+        <nombre>Carlo</nombre>
+        <apellido>Lattanzio</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1997-07-25</fechaNacimiento>
+        <horaNacimiento />
+        <edad>20</edad>
+        <peso />
+        <altura />
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>30</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>300000</cotizacion>
       </jugador>
       <jugador id="5445">
         <nombre>Pablo Ariel</nombre>

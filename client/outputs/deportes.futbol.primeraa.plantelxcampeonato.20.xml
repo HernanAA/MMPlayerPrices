@@ -4,9 +4,9 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171121</fechaActual>
+  <fechaActual>20171205</fechaActual>
   <equipo id="20" nombre="Vélez" sigla="VEL" paisId="1" paisNombre="Argentina" tipo="club">
-    <jugadores cant="33">
+    <jugadores cant="35">
       <jugador id="59670">
         <nombre>Alan</nombre>
         <apellido>Aguerre</apellido>
@@ -133,7 +133,7 @@
         <cotizacion>3800000</cotizacion>
       </jugador>
       <jugador id="208462">
-        <nombre>Hernan</nombre>
+        <nombre>Hernán</nombre>
         <apellido>De La Fuente</apellido>
         <ladoHabil />
         <fechaNacimiento>1997-01-07</fechaNacimiento>
@@ -473,6 +473,23 @@
         <localidad />
         <cotizacion>3200000</cotizacion>
       </jugador>
+      <jugador id="208657">
+        <nombre>Nazareno Daniel</nombre>
+        <apellido>Bazán</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1999-03-08</fechaNacimiento>
+        <horaNacimiento />
+        <edad>18</edad>
+        <peso>74</peso>
+        <altura>184</altura>
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>33</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+      </jugador>
       <jugador id="3207">
         <nombre>Gonzalo Rubén</nombre>
         <apellido>Bergessio</apellido>
@@ -562,6 +579,24 @@
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
         <cotizacion>1800000</cotizacion>
+      </jugador>
+      <jugador id="208534">
+        <nombre>Francisco</nombre>
+        <apellido>Ortega</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1999-02-19</fechaNacimiento>
+        <horaNacimiento />
+        <edad>18</edad>
+        <peso>75</peso>
+        <altura>177</altura>
+        <apodo />
+        <rol idRol="4">Delantero</rol>
+        <camiseta>34</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+        <cotizacion>300000</cotizacion>
       </jugador>
       <jugador id="147410">
         <nombre>Maximiliano</nombre>

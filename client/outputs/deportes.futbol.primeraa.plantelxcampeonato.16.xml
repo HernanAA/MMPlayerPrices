@@ -4,9 +4,9 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171002</fechaActual>
+  <fechaActual>20171130</fechaActual>
   <equipo id="16" nombre="Racing Club" sigla="RAC" paisId="1" paisNombre="Argentina" tipo="club">
-    <jugadores cant="32">
+    <jugadores cant="33">
       <jugador id="15110">
         <nombre>Javier Hernán</nombre>
         <apellido>García</apellido>
@@ -138,7 +138,7 @@
         <ladoHabil>derecho</ladoHabil>
         <fechaNacimiento>1989-11-29</fechaNacimiento>
         <horaNacimiento />
-        <edad>27</edad>
+        <edad>28</edad>
         <peso>83</peso>
         <altura>181</altura>
         <apodo>Juan Patiño</apodo>
@@ -210,7 +210,7 @@
         <ladoHabil />
         <fechaNacimiento>1993-10-20</fechaNacimiento>
         <horaNacimiento />
-        <edad>23</edad>
+        <edad>24</edad>
         <peso>69</peso>
         <altura>172</altura>
         <apodo />
@@ -311,6 +311,23 @@
         <localidad />
         <cotizacion>4900000</cotizacion>
       </jugador>
+      <jugador id="208582">
+        <nombre>Kevin Facundo</nombre>
+        <apellido>Gutiérrez</apellido>
+        <ladoHabil />
+        <fechaNacimiento>1997-06-03</fechaNacimiento>
+        <horaNacimiento />
+        <edad>20</edad>
+        <peso>70</peso>
+        <altura>168</altura>
+        <apodo />
+        <rol idRol="3">Volante</rol>
+        <camiseta>31</camiseta>
+        <pais paisId="1">Argentina</pais>
+        <provincia />
+        <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
+        <localidad />
+      </jugador>
       <jugador id="106208">
         <nombre>César Marcelo</nombre>
         <apellido>Meli</apellido>
@@ -335,7 +352,7 @@
         <ladoHabil />
         <fechaNacimiento>1998-11-27</fechaNacimiento>
         <horaNacimiento />
-        <edad>18</edad>
+        <edad>19</edad>
         <peso>59</peso>
         <altura>176</altura>
         <apodo />
@@ -563,15 +580,15 @@
         <localidad />
         <cotizacion>300000</cotizacion>
       </jugador>
-      <jugador id="98">
-        <nombre>Diego Martín</nombre>
-        <apellido>Cocca</apellido>
+      <jugador id="7148">
+        <nombre>Juan Ramón</nombre>
+        <apellido>Fleita</apellido>
         <ladoHabil />
-        <fechaNacimiento>1972-02-11</fechaNacimiento>
+        <fechaNacimiento>1972-06-23</fechaNacimiento>
         <horaNacimiento />
         <edad>45</edad>
         <peso />
-        <altura>174</altura>
+        <altura />
         <apodo />
         <rol idRol="5">DT</rol>
         <camiseta />

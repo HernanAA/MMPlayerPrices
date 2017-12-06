@@ -4,7 +4,7 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171118</fechaActual>
+  <fechaActual>20171130</fechaActual>
   <equipo id="100" nombre="Huracán" sigla="HUR" paisId="1" paisNombre="Argentina" tipo="club">
     <jugadores cant="35">
       <jugador id="8893">
@@ -84,7 +84,7 @@
         <ladoHabil />
         <fechaNacimiento>1981-11-19</fechaNacimiento>
         <horaNacimiento />
-        <edad>35</edad>
+        <edad>36</edad>
         <peso>71</peso>
         <altura>172</altura>
         <apodo />
@@ -516,7 +516,7 @@
         <ladoHabil />
         <fechaNacimiento>1991-11-24</fechaNacimiento>
         <horaNacimiento />
-        <edad>25</edad>
+        <edad>26</edad>
         <peso>70</peso>
         <altura>180</altura>
         <apodo />

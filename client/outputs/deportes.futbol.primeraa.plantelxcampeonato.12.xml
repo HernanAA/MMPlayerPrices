@@ -4,7 +4,7 @@
   <categoria id="1" canal="primeraa">Argentina - Primera A</categoria>
   <campeonato id="4684">Argentina - Superliga 2017-18</campeonato>
   <campeonatoNombreAlternativo id="4684">Superliga</campeonatoNombreAlternativo>
-  <fechaActual>20171120</fechaActual>
+  <fechaActual>20171128</fechaActual>
   <equipo id="12" nombre="Lanús" sigla="LAN" paisId="1" paisNombre="Argentina" tipo="club">
     <jugadores cant="33">
       <jugador id="46115">
