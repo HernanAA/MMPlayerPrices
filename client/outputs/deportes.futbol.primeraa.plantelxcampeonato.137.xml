@@ -527,6 +527,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>600000</cotizacion>
       </jugador>
       <jugador id="93853">
         <nombre>Franco</nombre>

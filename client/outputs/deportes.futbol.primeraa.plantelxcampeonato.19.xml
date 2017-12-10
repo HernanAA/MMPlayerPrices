@@ -470,6 +470,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3400000</cotizacion>
       </jugador>
       <jugador id="598">
         <nombre>Leandro Atilio</nombre>

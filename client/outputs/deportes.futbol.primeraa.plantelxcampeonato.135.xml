@@ -347,6 +347,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>1800000</cotizacion>
       </jugador>
       <jugador id="173024">
         <nombre>Cristian Ezequiel</nombre>
@@ -382,6 +383,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>2200000</cotizacion>
       </jugador>
       <jugador id="70297">
         <nombre>Juan Edgardo</nombre>

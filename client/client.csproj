@@ -43,6 +43,7 @@
     <Compile Include="client.cs" />
     <Compile Include="DtList.cs" />
     <Compile Include="MMList.cs" />
+    <Compile Include="NotFounds.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <AppDesigner Include="Properties\" />
   </ItemGroup>

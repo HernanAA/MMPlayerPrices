@@ -112,6 +112,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>400000</cotizacion>
       </jugador>
       <jugador id="127229">
         <nombre>Néstor Adriel</nombre>
@@ -237,6 +238,7 @@
         <provincia />
         <clubActual id="21" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
         <localidad />
+        <cotizacion>4000000</cotizacion>
       </jugador>
       <jugador id="79278">
         <nombre>Gabriel Gastón Alexis</nombre>

@@ -41,6 +41,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>2800000</cotizacion>
       </jugador>
       <jugador id="195809">
         <nombre>Joaquín Nicolás</nombre>

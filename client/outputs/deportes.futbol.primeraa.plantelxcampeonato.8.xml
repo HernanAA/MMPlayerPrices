@@ -23,6 +23,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>1600000</cotizacion>
       </jugador>
       <jugador id="204643">
         <nombre>Tomás</nombre>
@@ -273,6 +274,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3800000</cotizacion>
       </jugador>
       <jugador id="204560">
         <nombre>Agustín Gabriel</nombre>
@@ -524,6 +526,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>1800000</cotizacion>
       </jugador>
       <jugador id="147067">
         <nombre>Mariano</nombre>

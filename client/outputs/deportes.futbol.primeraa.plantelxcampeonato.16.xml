@@ -131,6 +131,7 @@
         <provincia />
         <clubActual id="21" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
         <localidad />
+        <cotizacion>4500000</cotizacion>
       </jugador>
       <jugador id="57175">
         <nombre>Juan Gabriel</nombre>

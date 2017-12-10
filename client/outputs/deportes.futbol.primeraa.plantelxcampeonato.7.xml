@@ -257,6 +257,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3300000</cotizacion>
       </jugador>
       <jugador id="186064">
         <nombre>Marco</nombre>

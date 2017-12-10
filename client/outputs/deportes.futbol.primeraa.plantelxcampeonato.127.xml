@@ -221,6 +221,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>600000</cotizacion>
       </jugador>
       <jugador id="188389">
         <nombre>Juan Ignacio</nombre>
@@ -291,6 +292,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>600000</cotizacion>
       </jugador>
       <jugador id="46841">
         <nombre>Cristian Damián</nombre>
@@ -326,6 +328,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>500000</cotizacion>
       </jugador>
       <jugador id="205476">
         <nombre>Gonzalo</nombre>
@@ -361,6 +364,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>2200000</cotizacion>
       </jugador>
       <jugador id="172851">
         <nombre>Matías</nombre>
@@ -378,6 +382,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>300000</cotizacion>
       </jugador>
       <jugador id="94863">
         <nombre>Miguel</nombre>
@@ -449,6 +454,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>2300000</cotizacion>
       </jugador>
       <jugador id="156214">
         <nombre>Elías</nombre>
@@ -574,6 +580,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>2800000</cotizacion>
       </jugador>
       <jugador id="3596">
         <nombre>Walter Gastón</nombre>

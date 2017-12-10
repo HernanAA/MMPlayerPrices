@@ -149,6 +149,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3100000</cotizacion>
       </jugador>
       <jugador id="104426">
         <nombre>José Luis</nombre>

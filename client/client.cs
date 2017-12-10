@@ -4,6 +4,7 @@
 
 using MundoManager.Serializer.Dt;
 using MundoManager.Serializer.MM;
+using MundoManager.Serializer.NF;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -22,10 +23,12 @@ namespace MundoManager.Serializer
         static void Main()
         {
             int unmached = 0;
+
             try
             {
-                JsonSerializer serializer = new JsonSerializer();
                 DtList dtList = JsonConvert.DeserializeObject<DtList>(File.ReadAllText("../inputs/jugadores1.json"));
+
+                NotFounds notFoundsList = JsonConvert.DeserializeObject<NotFounds>(File.ReadAllText("../inputs/notFounds.json"));
 
                 XmlSerializer writer = new XmlSerializer(typeof(MMList));
 
@@ -41,26 +44,44 @@ namespace MundoManager.Serializer
                         foreach (var mmJugador in mmList.equipo.jugadores.jugadorList)
                         {
                             var dtJugador =
-                            from jugador in dtList.jugadores.ToList()
-                            where
-                                (jugador.clubActual.nombreCorto == mmList.equipo.sigla ||
-                                mmList.equipo.sigla == "GIM" && jugador.clubActual.nombreCorto == "GLP" ||
-                                mmList.equipo.sigla == "ROS" && jugador.clubActual.nombreCorto == "CEN" ||
-                                mmList.equipo.sigla == "CHA" && jugador.clubActual.nombreCorto == "CHJ" ||
-                                mmList.equipo.sigla == "DEF" && jugador.clubActual.nombreCorto == "DYJ" ||
-                                mmList.equipo.sigla == "SMS" && jugador.clubActual.nombreCorto == "SSJ" ||
-                                mmList.equipo.sigla == "TAL" && jugador.clubActual.nombreCorto == "TC") &&
-                                //jugador.jugador.apellido.Contains(mmJugador.apellido) &&
-                                //jugador.jugador.nombres.Contains(mmJugador.nombre)
-                                mmJugador.apellido.Contains(jugador.jugador.apellido) &&
-                                mmJugador.nombre.Contains(jugador.jugador.nombres)
-                            select jugador;
+                            from item in dtList.jugadores.ToList()
+                            where(
+                                    ((item.clubActual.nombreCorto == mmList.equipo.sigla ||
+                                    mmList.equipo.sigla == "GIM" && item.clubActual.nombreCorto == "GLP" ||
+                                    mmList.equipo.sigla == "ROS" && item.clubActual.nombreCorto == "CEN" ||
+                                    mmList.equipo.sigla == "CHA" && item.clubActual.nombreCorto == "CHJ" ||
+                                    mmList.equipo.sigla == "DEF" && item.clubActual.nombreCorto == "DYJ" ||
+                                    mmList.equipo.sigla == "SMS" && item.clubActual.nombreCorto == "SSJ" ||
+                                    mmList.equipo.sigla == "TAL" && item.clubActual.nombreCorto == "TC") &&
+                                    //jugador.jugador.apellido.Contains(mmJugador.apellido) &&
+                                    //jugador.jugador.nombres.Contains(mmJugador.nombre)
+                                    RemoveAccent(mmJugador.apellido).Contains(RemoveAccent(item.jugador.apellido)) &&
+                                    RemoveAccent(mmJugador.nombre).Contains(RemoveAccent(item.jugador.nombres)))
+                                    ||
+                                    (mmJugador.id == 55208 && item.jugador.id == 23469 /*Juan M. Sánchez Miño*/ ||
+                                    
+                                    mmJugador.id == 55208 && item.jugador.id == 23469 /*Sánchez Miño*/ ||
+                                    mmJugador.id == 55208 && item.jugador.id == 23469 /*Sánchez Miño*/ ||
+                                    mmJugador.id == 55208 && item.jugador.id == 23469 /*Sánchez Miño*/ ||
+                                    mmJugador.id == 55208 && item.jugador.id == 23469 /*Sánchez Miño*/ ||
+                                    mmJugador.id == 55208 && item.jugador.id == 23469 /*Sánchez Miño*/ ||
+                                    mmJugador.id == 55208 && item.jugador.id == 23469 /*Sánchez Miño*/ ||
+                                    mmJugador.id == 55208 && item.jugador.id == 23469 /*Sánchez Miño*/ )
+
+                                )
+                            select item;
 
                             if (dtJugador == null || dtJugador.Count() == 0)
                             {
-                                unmached++;
-                                Console.WriteLine("{2} - {3} Jugador no encontrado: {0} {1} - {4}",
-                                    mmJugador.nombre, mmJugador.apellido, unmached, mmList.equipo.sigla, mmFile);
+                                bool inNotFound = FindInNotFounds(notFoundsList, mmJugador.id, mmJugador.nombre, mmJugador.apellido, mmFile.Split('.')[mmFile.Split('.').Length - 2], mmList.equipo.sigla);
+
+                                if (!inNotFound)
+                                {
+                                    unmached++;
+                                    Console.WriteLine("{0} - {1} Jugador no encontrado: {2} {3} - {4}  mmId: {5}",
+                                            unmached, mmList.equipo.sigla, mmJugador.nombre, mmJugador.apellido, mmFile.Split('.')[mmFile.Split('.').Length - 2],
+                                            mmJugador.id);
+                                }
                             }
                             else
                             {
@@ -85,6 +106,30 @@ namespace MundoManager.Serializer
             }
 
 
+        }
+
+        private static string RemoveAccent(string input)
+        {
+            return input.Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u");
+        }
+
+        private static bool FindInNotFounds(NotFounds notFoundsList, int id, string nombre, string apellido, string fileId, string sigla)
+        {
+            var jugadorNF =
+                            from jugador in notFoundsList.jugadores.ToList()
+                            where
+                                //item.jugador.id == id &&
+                                jugador.fileId.ToString() == fileId &&
+                                jugador.sigla.ToString() == sigla &&
+                                jugador.apellido.Contains(apellido) &&
+                                jugador.nombre.Contains(nombre)
+                            select jugador;
+
+            if (jugadorNF.Count() > 0) {
+                return true;
+            }
+
+            return false;
         }
     }
 

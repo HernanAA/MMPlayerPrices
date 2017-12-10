@@ -113,6 +113,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>400000</cotizacion>
       </jugador>
       <jugador id="115591">
         <nombre>Franco</nombre>
@@ -184,6 +185,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>300000</cotizacion>
       </jugador>
       <jugador id="105300">
         <nombre>Nehuén</nombre>
@@ -219,6 +221,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3200000</cotizacion>
       </jugador>
       <jugador id="172759">
         <nombre>Milton Nahuel</nombre>
@@ -522,6 +525,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3000000</cotizacion>
       </jugador>
       <jugador id="202285">
         <nombre>Daniel Hernán</nombre>
@@ -575,6 +579,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>2300000</cotizacion>
       </jugador>
       <jugador id="204821">
         <nombre>Milton</nombre>

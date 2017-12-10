@@ -329,6 +329,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>1800000</cotizacion>
       </jugador>
       <jugador id="75490">
         <nombre>Sergio Ezequiel</nombre>

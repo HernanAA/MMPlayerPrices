@@ -1,0 +1,18 @@
+{
+	"jugadores": [
+			{
+				"id": 22634,
+				"nombre": "Franco",
+				"apellido": "Vélez",
+				"sigla": "IND",
+				"fileId":10
+			},
+			{
+				"id": 22634,
+				"nombre": "Diego Martín",
+				"apellido": "Rodríguez Berrini",
+				"sigla": "IND",
+				"fileId":10
+			}	
+	]
+}

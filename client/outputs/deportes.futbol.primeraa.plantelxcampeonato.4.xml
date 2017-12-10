@@ -274,6 +274,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>4300000</cotizacion>
       </jugador>
       <jugador id="172675">
         <nombre>Luciano</nombre>
@@ -453,6 +454,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>5800000</cotizacion>
       </jugador>
       <jugador id="126562">
         <nombre>Agustín</nombre>

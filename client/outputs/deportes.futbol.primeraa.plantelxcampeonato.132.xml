@@ -130,6 +130,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3000000</cotizacion>
       </jugador>
       <jugador id="147570">
         <nombre>Tomás</nombre>

@@ -41,6 +41,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>2300000</cotizacion>
       </jugador>
       <jugador id="202252">
         <nombre>Julián</nombre>

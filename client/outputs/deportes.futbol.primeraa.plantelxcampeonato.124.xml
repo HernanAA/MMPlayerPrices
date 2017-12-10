@@ -382,6 +382,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3700000</cotizacion>
       </jugador>
       <jugador id="42505">
         <nombre>Jhonathan Rafael</nombre>

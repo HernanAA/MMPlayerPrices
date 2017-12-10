@@ -59,6 +59,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3500000</cotizacion>
       </jugador>
       <jugador id="121424">
         <nombre>Gonzalo</nombre>
