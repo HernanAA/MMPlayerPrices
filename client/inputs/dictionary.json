@@ -1,0 +1,88 @@
+{
+	"jugadores": [
+			{
+				"mmId": 55208,
+				"dtId": 23469,
+				"mmDescripcion": "Juan Manuel Sánchez Miño",
+				"dtDescripcion": "Juan M. Sánchez Miño",
+			},
+			{
+				"mmId": 42505,
+				"dtId": 23340,
+				"mmDescripcion": "Jhonathan Rafael Ramis Persíncula",
+				"dtDescripcion": "Jonathan Ramis",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+			{
+				"mmId":0,
+				"dtId":0,
+				"mmDescripcion": "",
+				"dtDescripcion": "",
+			},
+		]
+}

@@ -1,0 +1,17 @@
+1 - LAN Jugador no encontrado: Santiago Zurbriggen - 12  mmId: 51466 - rol: Defensor 
+Aparece en la pg de granDT pero no esta en el archivo. Seguramente hay q volver a generar el archivo
+
+2 - LAN Jugador no encontrado: Kevin Cardozo - 12  mmId: 207692 - rol: Volante
+No aparece ninguno en el archivo dt. Ver en la pg q ahora no anda
+
+3 - LAN Jugador no encontrado: Denis Joel Martínez - 12  mmId: 173022 - rol: Delantero
+No aparece ninguno en el archivo dt. Ver en la pg q ahora no anda
+
+4 - BEL Jugador no encontrado: Franco Pardo - 124  mmId: 198443 - rol: Defensor
+No aparece ninguno en el archivo dt. Ver en la pg q ahora no anda
+
+5 - CHA Jugador no encontrado: Cristian Barrios - 127  mmId: 208608 - rol: Volante
+Fijura en San Lorenzo en el arch granDT
+
+6 - DEF Jugador no encontrado: Leandro Agustín Zazpe Rodríguez - 129  mmId: 75587 - rol: Defensor
+No aparece ninguno en el archivo dt. Ver en la pg q ahora no anda

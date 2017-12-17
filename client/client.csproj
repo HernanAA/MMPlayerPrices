@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="client.cs" />
+    <Compile Include="Dictionary.cs" />
     <Compile Include="DtList.cs" />
     <Compile Include="MMList.cs" />
     <Compile Include="NotFounds.cs" />
@@ -49,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
 </Project>

@@ -400,6 +400,7 @@
         <provincia />
         <clubActual id="653" nombre="Uruguay" paisId="12" paisNombre="Uruguay" paisSigla="URU" tipo="seleccion" />
         <localidad />
+        <cotizacion>2800000</cotizacion>
       </jugador>
       <jugador id="186028">
         <nombre>Joaquín Nehemías</nombre>
