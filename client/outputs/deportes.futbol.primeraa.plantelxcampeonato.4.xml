@@ -167,6 +167,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>1300000</cotizacion>
       </jugador>
       <jugador id="185198">
         <nombre>Alexis</nombre>

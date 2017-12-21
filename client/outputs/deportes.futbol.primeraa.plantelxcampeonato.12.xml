@@ -543,6 +543,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>300000</cotizacion>
       </jugador>
       <jugador id="116885">
         <nombre>Damián Marcelino</nombre>

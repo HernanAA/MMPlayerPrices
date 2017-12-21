@@ -418,7 +418,6 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
-        <cotizacion>300000</cotizacion>
       </jugador>
       <jugador id="205473">
         <nombre>Federico</nombre>

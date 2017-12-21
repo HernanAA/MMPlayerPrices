@@ -577,7 +577,6 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
-        <cotizacion>5400000</cotizacion>
       </jugador>
       <jugador id="192388">
         <nombre>Leonardo</nombre>

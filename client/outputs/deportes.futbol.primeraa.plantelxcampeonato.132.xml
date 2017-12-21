@@ -95,6 +95,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>3500000</cotizacion>
       </jugador>
       <jugador id="196094">
         <nombre>Brayan Raúl</nombre>

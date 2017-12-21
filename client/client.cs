@@ -27,7 +27,7 @@ namespace MundoManager.Serializer
 
             try
             {
-                DtList dtList = JsonConvert.DeserializeObject<DtList>(File.ReadAllText("../inputs/jugadores1.json"));
+                DtList dtList = JsonConvert.DeserializeObject<DtList>(File.ReadAllText("../inputs/jugadores2.json"));
 
                 NotFounds notFoundsList = JsonConvert.DeserializeObject<NotFounds>(File.ReadAllText("../inputs/notFounds.json"));
 
@@ -77,6 +77,8 @@ namespace MundoManager.Serializer
                                         Console.WriteLine("{0} - {1} Jugador no encontrado: {2} {3} - {4}  mmId: {5} - rol: {6}",
                                                 unmached, mmList.equipo.sigla, mmJugador.nombre, mmJugador.apellido, mmFile.Split('.')[mmFile.Split('.').Length - 2],
                                                 mmJugador.id, mmJugador.rol.rolText);
+
+                                        LogNearestPlayer(dtList, mmList, mmJugador, mmList.equipo.sigla);
                                     }
                                 }
                                 else
@@ -101,6 +103,54 @@ namespace MundoManager.Serializer
             }
 
 
+        }
+
+        private static void LogNearestPlayer(DtList dtList, MMList mmList, MM.Jugador mmJugador, string mmClubSigla)
+        {
+            var dtJugador =
+                from item in dtList.jugadores.ToList()
+                where (
+                        //Algunos clubes tienen distintos identificadores.
+                        ((item.clubActual.nombreCorto == mmList.equipo.sigla ||
+                        mmClubSigla == "GIM" && item.clubActual.nombreCorto == "GLP" ||
+                        mmClubSigla == "ROS" && item.clubActual.nombreCorto == "CEN" ||
+                        mmClubSigla == "CHA" && item.clubActual.nombreCorto == "CHJ" ||
+                        mmClubSigla == "DEF" && item.clubActual.nombreCorto == "DYJ" ||
+                        mmClubSigla == "SMS" && item.clubActual.nombreCorto == "SSJ" ||
+                        mmClubSigla == "TAL" && item.clubActual.nombreCorto == "TC")
+                        &&
+                        RemoveAccent(mmJugador.apellido).Contains(RemoveAccent(item.jugador.apellido.Split(' ')[0])) ||
+                        (RemoveAccent(item.jugador.apellido).Contains(RemoveAccent(mmJugador.apellido).Split(' ')[0]))
+                        )
+                        
+                    )
+                select item;
+
+            if (dtJugador.Count() > 0)
+            {
+                foreach (dtItem item in dtJugador)
+                {
+                    Console.WriteLine("{0} - {1} mmId: {2} {3} {4} - {5} dtId: {6} {7} - rol: {8}",
+                            "------- \n", 
+                            mmClubSigla,
+                            mmJugador.id,
+                            mmJugador.nombre, 
+                            mmJugador.apellido + "\n", 
+                            item.clubActual.nombreCorto,
+                            item.jugador.id,
+                            item.jugador.nombres, 
+                            item.jugador.apellido,
+                            mmJugador.rol.rolText + "\n"
+                            );
+                }
+                    
+            }
+            else
+            {
+                //Console.WriteLine("{0} - {1} Jugador no : {2} {3} - {4} {5} mmId: {6} - rol: {7}",
+                //    '-', mmClubSigla, mmJugador.nombre, mmJugador.apellido, item.jugador.nombres, item.jugador.apellido,
+                //    mmJugador.id, mmJugador.rol.rolText);
+            }
         }
 
         private static bool MatchDictionary(Dictionary list, int mmId, int dtId)

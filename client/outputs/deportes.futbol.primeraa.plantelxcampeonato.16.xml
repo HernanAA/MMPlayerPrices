@@ -435,7 +435,6 @@
         <provincia />
         <clubActual id="631" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
         <localidad />
-        <cotizacion>1200000</cotizacion>
       </jugador>
       <jugador id="186086">
         <nombre>Maximiliano Pablo</nombre>

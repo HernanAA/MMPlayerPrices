@@ -455,6 +455,7 @@
         <provincia />
         <clubActual id="729" nombre="Brasil" paisId="5" paisNombre="Brasil" paisSigla="BRA" tipo="seleccion" />
         <localidad />
+        <cotizacion>2000000</cotizacion>
       </jugador>
       <jugador id="144505">
         <nombre>Maximiliano Brian</nombre>

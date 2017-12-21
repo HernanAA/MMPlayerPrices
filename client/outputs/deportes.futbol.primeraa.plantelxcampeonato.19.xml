@@ -256,7 +256,6 @@
         <provincia />
         <clubActual id="631" nombre="Argentina" paisId="1" paisNombre="Argentina" paisSigla="ARG" tipo="seleccion" />
         <localidad />
-        <cotizacion>800000</cotizacion>
       </jugador>
       <jugador id="196048">
         <nombre>Jonás</nombre>

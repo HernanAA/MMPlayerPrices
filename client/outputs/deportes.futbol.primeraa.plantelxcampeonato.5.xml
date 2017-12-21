@@ -508,6 +508,7 @@
         <provincia />
         <clubActual id="" nombre="" paisId="" paisNombre="" paisSigla="" tipo="" />
         <localidad />
+        <cotizacion>300000</cotizacion>
       </jugador>
       <jugador id="111421">
         <nombre>Cristian David</nombre>
